@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+.nav-container{
+    width: 100%;
+    background-color: #2F1893;
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-box{
+    border-radius: 100px;
+    border:2px solid #ffffff;
+    opacity: 0.2;
+    background-color: inherit;
+    padding: 0.8rem 1rem;
+}
+.search-box::placeholder{
+    color: #ffffff;
+}
+.start-text{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.nav-links{
+    display: flex;
+    gap: 40px;
+}
+.nav-links a{
+    color: #ffffff;
+    text-decoration: none;
+}
